@@ -1,0 +1,74 @@
+body{background:url(../images/bg.jpg); margin:0px;}
+#input-request{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#input-request #pesan{padding:5px 0px;}
+#input-request textarea{
+	border:1px solid #999;;
+	font-family:"Lato";
+	font-size:18px;
+	outline:none;
+	padding:13px;
+}
+#input-request input[type="submit"]{
+	border:none;
+	color:#333;
+	cursor:pointer;
+	float:right;
+	outline:none;
+	padding:5px 35px;
+	transition:500ms all ease;
+}
+#input-request input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	transition:500ms all ease;
+}
+#request-list{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	/* margin-top:20px; */
+	padding:25px;
+	width:855px;
+}
+#list-tanggal{color:#999; float:right; font-size:13px;}
+#list-foto{border:1px solid #999; border-radius:100px; float:left; height:40px; width:40px;}
+#list-nama{ font-size:18px; font-weight:bold; margin-left:50px; padding-top:3px;}
+#list-user{color:#999; margin-left:50px; padding-bottom:10px;}
+#list-pesan{
+	border-left:5px solid #090;
+	padding:10px;
+	margin-left:50px;
+	width:auto;
+}
+#action{
+	margin-left:60px;
+}
+#action a{
+	color:#999;
+	font-size:14px;
+	font-style:italic;
+	padding:5px;
+	text-decoration:none;
+	transition:500ms all ease;
+}
+#action a:hover{
+	color:#090;
+	transition:500ms all ease;
+}
+hr{
+	background:#ccc;
+	border:none;
+	border-radius:100px;
+	height:3px;
+}

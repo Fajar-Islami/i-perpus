@@ -1,0 +1,97 @@
+#profile{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:320px;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#profile img#edit{
+	height:25px;
+	margin:12px 0px 0px 800px;
+	position:absolute;
+	width:25px;
+}
+#profile #photo{float:left;}
+img#dp{
+	height:250px;
+	width:250px;
+}
+input[type="file"]{display:none}
+label#upload-btn{
+	background:#090;
+	color:#F0F0F0;
+	cursor:pointer;
+	font-family:"HelveticaTextbook LT Roman";
+	font-size:19px;
+	font-weight:400;
+	line-height:29px;
+	margin-top:-5px;
+	padding:4px 54px;
+	transition:600ms all ease;
+}
+label#upload-btn:hover{background:#070;}
+input[type="image"]{
+	background:#090;
+	margin-top:0px;
+	padding:5px 5px;
+	position:absolute;
+	transition:600ms all ease;
+}
+input[type="image"]:hover{background:#070;}
+#my-prof-text{
+	color:#090;
+	font-family:Magneto;
+	font-size:36px;
+	margin-left:200px;
+	text-shadow:1px 1px 1px #000;
+}
+#text table{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	padding:20px 0px 0px 30px;
+}
+#my-request{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+img.pic{border:1px solid #999; border-radius:100px; float:left; height:40px; width:40px;}
+#list-tanggal{color:#999; float:right; font-size:13px; padding-right:5px;}
+#list-nama{ font-size:18px; font-weight:bold; margin-left:50px; padding-top:3px;}
+#list-user{color:#999; margin-left:50px; padding-bottom:10px;}
+#list-pesan{
+	border-left:5px solid #090;
+	margin-left:50px;
+	padding:10px;
+	width:auto;
+}
+hr{
+	background:#ccc;
+	border:none;
+	border-radius:100px;
+	height:3px;
+}
+#reply{
+	background:#ccc;
+	border:1px solid #999;
+	margin-left:50px;
+	margin-top:10px;
+	padding:5px;
+}
+#reply-tanggal{color:#666; float:right; font-size:13px; padding-right:5px;}
+#reply-user{color:#666; margin-left:50px; padding-bottom:10px;}
+#footer{
+	color:#999;
+	font-family:"Lato Black";
+	font-size:13px;
+	padding:10px 0px;
+	text-align:center;
+}

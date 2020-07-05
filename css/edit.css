@@ -1,0 +1,108 @@
+#profile{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:280px;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#profile #photo{float:left;}
+img#dp{
+	height:250px;
+	width:250px;
+}
+input[type="file"]{display:none}
+label#upload-btn{
+	background:#090;
+	color:#F0F0F0;
+	cursor:pointer;
+	font-family:"HelveticaTextbook LT Roman";
+	font-size:19px;
+	font-weight:400;
+	line-height:29px;
+	margin-top:-5px;
+	padding:4px 54px;
+	transition:600ms all ease;
+}
+label#upload-btn:hover{background:#070;}
+input[type="image"]{
+	background:#090;
+	margin-top:0px;
+	padding:5px 5px;
+	position:absolute;
+	transition:600ms all ease;
+}
+input[type="image"]:hover{background:#070;}
+#my-prof-text{
+	color:#090;
+	font-family:Magneto;
+	font-size:36px;
+	margin-left:200px;
+	text-shadow:1px 1px 1px #000;
+}
+#text table{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	padding:20px 0px 0px 30px;
+}
+#my-request{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#list-tanggal{color:#999; float:right; font-size:13px;}
+#list-pesan{
+	border-left:5px solid #090;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	padding:10px;
+	width:auto;
+}
+hr{
+	background:#ccc;
+	border:none;
+	border-radius:100px;
+	height:3px;
+}
+#footer{
+	color:#999;
+	font-family:"Lato Black";
+	font-size:13px;
+	padding:10px 0px;
+	text-align:center;
+}
+#text input[type="text"]{
+	border:1px solid #999;
+	border-radius:3px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	outline:none;
+	padding:2px 5px;
+	width:215px;
+}
+#text input[type="submit"]{
+	background:#999;
+	border:none;
+	border-radius:4px;
+	color:#fff;
+	padding:5px 40px;
+}
+#text input[type="button"]{
+	background:#999;
+	border:none;
+	border-radius:4px;
+	color:#fff;
+	padding:5px 35px;
+}
+#text input[type="submit"]:hover,#text input[type="button"]:hover{
+	background:#090;
+	cursor:pointer;
+	transition:500ms all ease;
+}

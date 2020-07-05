@@ -1,0 +1,50 @@
+#reply{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#reply .text{
+	color:#999;
+}
+#reply input[type="text"]{
+	background:#;
+	border:none;
+	color:#333;
+	font-size:16px;
+	outline:none;
+	padding:3px 7px;
+	width:auto;
+}
+#reply .quote{
+	color:#333;
+	font-size:23px;
+}
+#reply textarea{
+	border:1px solid #999;
+	border-radius:5px;
+	color:#333;
+	font-size:16px;
+	height:70px;
+	outline:none;
+	padding:2px 7px;
+	width:300px;
+}
+#reply  input[type="submit"]{
+	border:none;
+	color:#333;
+	cursor:pointer;
+	float:right;
+	outline:none;
+	padding:5px 35px;
+	transition:500ms all ease;
+}
+#reply input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	transition:500ms all ease;
+}

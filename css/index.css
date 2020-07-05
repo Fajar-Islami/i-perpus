@@ -1,0 +1,30 @@
+body{
+	background:url(../images/bg.jpg); 
+	margin:0px;
+}
+#bar{
+	background:#222;
+	height:100%;
+	position:fixed;
+	width:60px;
+}
+img#logo{
+	height:50px;
+	margin:5px;
+	width:50px;
+}
+#space{height:33px;}
+#bar li{
+	list-style:none;
+	padding:7px 15px;
+}
+li img.menu{
+	background:#fff;
+	height:30px;
+	transition:500ms all ease;
+	width:30px;
+}
+li img.menu:hover{
+	background:#090;
+	transition:500ms all ease;
+}

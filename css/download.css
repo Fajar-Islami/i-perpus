@@ -1,0 +1,148 @@
+body{
+	background:url(../images/bg.jpg); 
+	margin:0px;
+}
+#download{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#book2 font{
+	color:#999;
+	font-family:Lato;
+	font-size:25px;
+	font-weight:bold;
+	margin-left:0px;
+}
+
+#download-admin{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	height:auto;
+	margin:auto;
+	/* margin-top:20px; */
+	padding:25px;
+	width:855px;
+}
+#buku{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	float:left;
+	height:auto;
+	margin:20px 0px 0px 250px;
+	padding:25px;
+	width:855px;
+}
+#input-download{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	float:left;
+	height:auto;
+	margin:20px 0px 0px 250px;
+	padding:25px;
+	width:855px;
+}
+#input-download{
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#input-download input{
+	outline:none;
+}
+#input-download input[type="text"]{
+	border:1px solid #999;
+	border-radius:5px;
+	padding:5px;
+	width:250px;
+}
+#input-download input[type="submit"]{
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	font-weight:bold;
+	padding:5px 100px;
+	transition:300ms all ease;
+}
+#input-download input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	transition:300ms all ease;
+}
+#download table,#buku table{border-collapse:collapse;}
+#download tr#judul,#buku tr#judul{
+	background:#090;
+	color:#FfF;
+	font-family:"Lato";
+	font-weight:bold;
+}
+#download tr#judul td,#buku tr#judul td{
+	padding:10px;
+	text-align:center;
+}
+#download td#action,#buku td#action{border:1px solid #999;}
+#download tr,#buku tr{background:#EAEAEA;}
+#download tr:nth-of-type(odd),#buku tr:nth-of-type(odd){background:#DDD;}
+#download tr#list:hover,#buku tr#list:hover{
+	background:#ccc;
+	}
+#download tr#list td.action-book,#buku tr#list td.action-book{
+	border:1px solid #999;
+	text-align:center;
+}
+#download tr,#buku tr{
+	border:1px solid #999;
+}
+#list-cover{padding:5px}
+#list-nama{
+	font-family:"HelveticaTextbook LT Roman";
+	padding:0px 0px 0px 20px;
+}
+@media(max-width:1024px){
+#input-download{
+	margin-left:0px;
+}
+}
+
+#search2{
+	border:0px solid #999;
+	float:right;
+	margin-top:-42px;
+	transition:600ms all ease;
+	
+}
+#search2:hover{
+	border:0px #090;
+	transition:600ms all ease;
+}
+#search2 input[type="text"]{
+	border:none;
+	border:3px solid #999;
+	color:#999;
+	font-size:15px;
+	font-weight:600;
+	outline:none;
+	padding:11px;
+	width:331px;
+	transition:600ms all ease;
+}
+#search2 input[type="submit"]{
+	border:none;
+	color:#999;
+	font-size:15px;
+	font-weight:600;
+	padding:11px 10px 11px 10px;
+	transition:600ms all ease;
+}
+#search2 input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	cursor:pointer;
+	transition:600ms all ease;
+}

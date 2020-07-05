@@ -1,0 +1,34 @@
+#book{
+	background:#fff;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#book font{
+	color:#999;
+	font-family:Lato;
+	font-size:25px;
+	font-weight:bold;
+	margin-left:20px;
+}
+table{
+	border:2px solid #999;
+	border-collapse:collapse;
+	margin-top:20px;
+}
+table tr{background:#EAEAEA; border:2px solid #999;}
+table tr:nth-of-type(odd){background:#DDD;}
+table tr#list:hover{
+	background:#ccc;
+	cursor:pointer;
+}
+#list-cover{padding:5px}
+#list-nama{
+	font-family:"HelveticaTextbook LT Roman";
+	padding:0px 0px 0px 20px;
+}
+#list-nama a{
+	color:#000;
+	text-decoration:none;
+}

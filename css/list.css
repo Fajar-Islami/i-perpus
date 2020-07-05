@@ -1,0 +1,81 @@
+#list{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	float:left;
+	height:auto;
+	margin:20px 0px 0px 200px;
+	padding:25px;
+	/* width:auto; */
+}
+#list table{
+	border-collapse:collapse;
+}
+#list tr#title{
+	background:#090;
+	color:#fff;
+}
+#list table tr{
+	border:1px solid #999;
+}
+#list table tr:hover{
+	background:#CCC;
+	cursor:pointer;
+}
+#stat{
+	padding:2px 10px;
+}
+#o{
+	background:#3C0;
+	border-radius:50px;
+	font-size:9px;
+	height:10px;
+	margin-left:5px;
+	width:10px;
+}
+#list-foto{
+	height:40px;
+	width:40px;
+}
+#list td#user{
+	border-right:1px solid #999;
+	font-family:Lato;
+	/* font-weight:600; */
+	margin-left:5px;
+	padding:5px;
+}
+#daftar{
+	background:#fff;
+	border:1px solid #999;
+	box-shadow:3px 3px 3px #999;
+	float:left;
+	height:auto;
+	margin:20px 0px 0px 180px;
+	padding:25px;
+	width:auto;
+}
+#daftar .judul-form{
+	font-size:24px;
+}
+#daftar input{outline:none;}
+#daftar input[type="text"],#daftar input[type="password"]{
+	border:1px solid #999;
+	border-radius:5px;
+	padding:5px 7px;
+}
+#daftar input[type="submit"]{
+	border:none;
+	border-radius:5px;
+	outline:none;
+	padding:5px 72.5px;
+	transition:500ms all ease;
+}
+#daftar input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	cursor:pointer;
+	transition:500ms all ease;
+}
+#x{
+	border-left:1px solid #999;
+}

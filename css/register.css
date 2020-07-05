@@ -1,0 +1,97 @@
+#menu{
+	box-shadow:0px 0.5px 2px #000;
+}
+
+#table-register{
+	margin:15px 0px 0px 150px;
+}
+table#register{
+	background:#fff;
+	padding:10px;
+	width:500px;
+}
+#register .judul-form{
+	font-family:"Roboto Bk";
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	background: #090;
+	padding: 1em 1em;
+	text-align: center;
+}
+#register .text-input{
+	text-align:right;
+	font-family: 'Open Sans', sans-serif;;
+	font-size:15px;
+	font-weight:400;
+	padding-right:10px;
+}
+#register input{
+	outline:none;
+	border:none;
+	margin:10px 0px;
+	padding: 13px 10px;
+}
+#register input[type="text"],#register input[type="password"]{
+	background:rgba(255,255,255,0);
+	border:1px solid #999;
+	border-radius:5px;
+	color:#676767;
+	font-weight: 600;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	width:350px;
+}
+#register input[type="checkbox"]{
+	height:15px;
+	width:15px;
+	outline:none;
+}
+#register input[type="submit"]{
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	cursor: pointer;
+	outline: none;
+	padding: 13px 10px;
+	width: 100%;
+	background: -webkit-gradient(linear, left top, left bottom,  
+		color-stop(25%,rgba(0,173,0,1)), 
+		color-stop(50%,rgba(0,163,0,1)),  
+		color-stop(100%,rgba(0,153,0,1)));
+}
+#register input[type="submit"]:hover{
+	background:-webkit-gradient(linear, left top, left bottom,  
+		color-stop(20%,rgba(0,153,0,1)), 
+		color-stop(80%,rgba(0,163,0,1)),  
+		color-stop(100%,rgba(0,173,0,1)));
+}
+
+#content{
+	margin:-648px 0px 0px 725px;
+}
+#content-text{
+	color:#090;
+	font-family:"Roboto";
+	font-size:30px;	
+	font-weight:600;
+	padding:100px 0px 5px 0px;
+	width:500px;
+}
+.content-btn{
+	border:3px solid #090;
+	border-radius:3px;
+	height:auto;
+	padding:3px 10px;
+	text-align:center;
+	width:150px;
+}
+.content-btn:hover{background:#090; transition:800ms all ease;}
+.content-btn a{color:#090; text-decoration:none;}
+.content-btn a:hover{color:#fff; transition:600ms all ease;}
+#footer{ margin-top:398px;}
+@media(max-width:1024px){
+#table-register{margin:15px 0px 0px 245px;}
+#content{display:none;}
+#footer{ margin-top:20px;}
+}

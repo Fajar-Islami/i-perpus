@@ -1,0 +1,48 @@
+#box1 {
+	background: #fff;
+border: 3px solid#999;
+box-shadow: 3px 3px 3px#999;
+float: left;
+height: 220px;
+margin: 200px 0px 0px 250px;
+padding: 25px;
+width: 300px;
+font-size: 70px;
+border-radius: 20px;
+}
+
+#box2 {
+	background: #fff;
+	border: 3px solid#999;
+	box-shadow: 3px 3px 3px#999;
+	float: left;
+	height: 220px;
+	margin: 200px 0px 0px 100px;
+	padding: 25px;
+	width: 300px;
+	font-size: 70px;
+	border-radius: 20px;
+	}
+
+#box3 {
+	background: #fff;
+	border: 3px solid#999;
+	box-shadow: 3px 3px 3px#999;
+	float: left;
+	height: 220px;
+	margin: 200px 0px 0px 100px;
+	padding: 25px;
+	width: 300px;
+	font-size: 70px;
+	border-radius: 20px;
+	}
+
+li img.gambar {
+	background:#fff;
+	height: 30px;
+	transition: 500ms all ease;
+	width: 30px;
+	-webkit-filter: blur(100px); /* Chrome, Opera */
+	filter: blur(100px);
+	position:fixed;
+	}

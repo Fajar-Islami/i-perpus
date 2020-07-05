@@ -1,0 +1,98 @@
+#book{
+	background:#fff;
+	margin:auto;
+	margin-top:20px;
+	padding:25px;
+	width:855px;
+}
+#book font{
+	color:#999;
+	font-family:Lato;
+	font-size:25px;
+	font-weight:bold;
+	margin-left:350px;
+}
+#book-list{
+	background:#999;
+	border:1px solid #999;
+	float:inherit;
+	margin:8px;
+	padding:13px 0px;
+	width:120px;
+	transition:500ms all ease;
+}
+#book-list:hover{
+	background:#ccc;
+	cursor:pointer;
+	transition:500ms all ease;
+}
+#book-list a{
+	color:#666;
+	font-size:16px;
+	font-weight:700;
+	text-decoration:none;
+	transition:500ms all ease;
+}
+#book-list a:hover{
+	color:#000;
+	transition:500ms all ease;
+}
+#list-cover{ border:1px solid #999; height:120px; margin-left:14px; width:90px;}
+#content{
+	height:auto;
+	margin:10px 0px 0px 10px;
+	width:825px;
+}
+
+#category select{
+	border:none;
+	border:3px solid #999;
+	color:#999;
+	cursor:pointer;
+	font-size:15px;
+	font-weight:600;
+	outline:none;
+	padding:10px;
+	width:400px;
+	transition:600ms all ease;
+}
+#category select:hover{
+	border:3px solid #090;
+	transition:600ms all ease;
+}
+#search{
+	border:0px solid #999;
+	float:right;
+	margin-top:-60px;
+	transition:600ms all ease;
+	
+}
+#search:hover{
+	border:0px #090;
+	transition:600ms all ease;
+}
+#search input[type="text"]{
+	border:none;
+	border:3px solid #999;
+	color:#999;
+	font-size:15px;
+	font-weight:600;
+	outline:none;
+	padding:11px;
+	width:331px;
+	transition:600ms all ease;
+}
+#search input[type="submit"]{
+	border:none;
+	color:#999;
+	font-size:15px;
+	font-weight:600;
+	padding:11px 10px 11px 10px;
+	transition:600ms all ease;
+}
+#search input[type="submit"]:hover{
+	background:#090;
+	color:#fff;
+	cursor:pointer;
+	transition:600ms all ease;
+}
