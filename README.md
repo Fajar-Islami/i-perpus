@@ -13,4 +13,8 @@ Ghina<br>
 Ihsan<br>
 <br>
 <br>
-Aplikasi Perpustakaan Online ini dibuat dengan menggunakan PHP 7
+Aplikasi Perpustakaan Online ini dibuat dengan menggunakan PHP 7<br>
+
+Install:
+Download dan ubah nama folder menjadi AppGudang
+Install Database dalam folder i-perpustakaan
