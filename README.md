@@ -17,4 +17,4 @@ Aplikasi Perpustakaan Online ini dibuat dengan menggunakan PHP 7<br>
 
 Install:<br>
 Download dan ubah nama folder menjadi AppGudang<br>
-Install Database dalam folder i-perpustakaan<br>
+Install Database dalam folder database<br>
